@@ -17,8 +17,8 @@ html,body{
   background: #1cc7d0;
 }
 .wrapper{
-  height: 400px;
-  width: 320px;
+  height: 80%;
+  width: 80%;
   position: relative;
   transform-style: preserve-3d;
  perspective: 1000px;
