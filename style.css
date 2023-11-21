@@ -12,7 +12,7 @@ html,body{
   place-items:centre;
   align-items: center;
   justify-items: center;
-  background-image: url(https://images.unsplash.com/photo-1695982207250-8ab2901d575d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-image: url(bac0u.jpg);
   /*background: linear-gradient(375deg, #b3aae7, #0015ff);*/
 }
 ::selection{
@@ -31,12 +31,12 @@ html,body{
   height: 100%;
   width: 100%;
   padding: 5px;
-  background: #ffffff;
+  background: #4147e64a;
   border-radius: 15px;
   transform: translateY(0deg);
   transform-style: preserve-3d;
   backface-visibility: hidden;
-  box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+  box-shadow: 0px 10px 15px rgba(6, 23, 215, 0.966);
   transition: transform 0.7s cubic-bezier(0.4,0.2,0.2,1);
 }
 .wrapper:hover > .front-face{
@@ -68,6 +68,7 @@ html,body{
 }
 .wrapper .back-face .info{
   text-align: center;
+  color: rgba(226, 226, 255, 0.699);
 }
 .back-face .info .title{
   font-size: 30px;
@@ -80,13 +81,13 @@ html,body{
   display: block;
   height: 40px;
   width: 40px;
-  color: #fff;
+  color: #ffffff;
   text-align: center;
   margin: 0 5px;
   line-height: 38px;
   border: 2px solid transparent;
   border-radius: 50%;
-  background: linear-gradient(375deg, #2440de, #6e6ce2);
+  background: linear-gradient(375deg, #0026fa, #ad00d8);
   transition: all 0.5s ease;
 }
 .back-face ul a:hover{
