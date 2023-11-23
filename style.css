@@ -13,6 +13,9 @@ html,body{
   align-items: center;
   justify-items: center;
   background-image: url(bac0u.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   /*background: linear-gradient(375deg, #b3aae7, #0015ff);*/
 }
 ::selection{
