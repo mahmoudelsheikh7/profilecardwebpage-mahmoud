@@ -34,12 +34,12 @@ html,body{
   height: 100%;
   width: 100%;
   padding: 5px;
-  background: #8a8ef34a;
+  background: #8a8ab14a;
   border-radius: 15px;
   transform: translateY(0deg);
   transform-style: preserve-3d;
   backface-visibility: hidden;
-  box-shadow: 0px 10px 15px rgba(6, 23, 215, 0.966);
+  box-shadow: 0px 10px 15px rgba(174, 174, 251, 0.966);
   transition: transform 0.7s cubic-bezier(0.4,0.2,0.2,1);
 }
 .wrapper:hover > .front-face{
@@ -66,12 +66,12 @@ html,body{
   width: 150px;
   padding: 5px;
   border-radius: 50%;
-  background: linear-gradient(375deg, #4c00ff, #2100b7);
+  background: linear-gradient(375deg, #002aff9d, #5471dcb7);
   /*background-image: url(profile/wallp.jpg);*/
 }
 .wrapper .back-face .info{
   text-align: center;
-  color: rgba(226, 226, 255, 0.699);
+  color: rgba(242, 242, 249, 0.793);
 }
 .back-face .info .title{
   font-size: 30px;
@@ -90,7 +90,7 @@ html,body{
   line-height: 38px;
   border: 2px solid transparent;
   border-radius: 50%;
-  background: linear-gradient(375deg, #0026fa, #ad00d8);
+  background: linear-gradient(375deg, #4c64ee, #0d44ea49);
   transition: all 0.5s ease;
 }
 .back-face ul a:hover{
